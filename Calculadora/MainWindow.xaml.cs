@@ -246,7 +246,7 @@ namespace Calculadora
 
         private void btnVírgula_Click(object sender, RoutedEventArgs e)
         {
-            Conta.Text += ".";
+            Conta.Text+= ".";
             conta = Conta.Text;
         }
 
@@ -314,17 +314,17 @@ namespace Calculadora
                 {
                     if (operador != "+")
                     {
-                        numDois = Convert.ToDouble(Conta.Text);
+                        numUm = Convert.ToDouble(Conta.Text);
                         switch (operador)
                         {
                             case "*":
-                                resultado = $"{numUm * numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "-":
-                                resultado = $"{numUm - numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "/":
-                                resultado = $"{numUm / numDois}";
+                                resultado = $"{numUm}";
                                 break;
                         }
 
@@ -342,8 +342,7 @@ namespace Calculadora
                         Visor.Text = $"{numUm}";
                     }
                     numUm = Convert.ToDouble(Visor.Text);
-                    Visor.Text += "+";
-                    Conta.Text = "";
+                    Visor.Text += "+";                   
                     SinalJaFoi = false;
                 }
 
@@ -414,17 +413,17 @@ namespace Calculadora
                 {
                     if (operador != "/")
                     {
-                        numDois = Convert.ToDouble(Conta.Text);
+                        numUm = Convert.ToDouble(Conta.Text);
                         switch (operador)
                         {
                             case "+":
-                                resultado = $"{numUm + numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "-":
-                                resultado = $"{numUm - numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "*":
-                                resultado = $"{numUm * numDois}";
+                                resultado = $"{numUm}";
                                 break;
                         }
 
@@ -512,17 +511,17 @@ namespace Calculadora
                 {
                     if (operador != "-")
                     {
-                        numDois = Convert.ToDouble(Conta.Text);
+                        numUm = Convert.ToDouble(Conta.Text);
                         switch (operador)
                         {
                             case "+":
-                                resultado = $"{numUm + numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "*":
-                                resultado = $"{numUm * numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "/":
-                                resultado = $"{numUm / numDois}";
+                                resultado = $"{numUm}";
                                 break;
                         }
 
@@ -612,17 +611,17 @@ namespace Calculadora
                 {
                     if (operador != "*")
                     {
-                        numDois = Convert.ToDouble(Conta.Text);
+                        numUm = Convert.ToDouble(Conta.Text);
                         switch (operador)
                         {
                             case "+":
-                                resultado = $"{numUm + numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "-":
-                                resultado = $"{numUm - numDois}";
+                                resultado = $"{numUm}";
                                 break;
                             case "/":
-                                resultado = $"{numUm / numDois}";
+                                resultado = $"{numUm}";
                                 break;
                         }
 

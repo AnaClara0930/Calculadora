@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300">
+        Title="MainWindow" Height="460" Width="300">
     <Grid>
         <TextBlock x:Name="Visor" HorizontalAlignment="Center" Height="24" Margin="0,-380,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="280" LineStackingStrategy="MaxHeight" TextAlignment="Right" FontSize="18"/>
         <TextBlock x:Name="Conta" HorizontalAlignment="Center" Height="37" Margin="0,-300,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="280" LineStackingStrategy="MaxHeight" TextAlignment="Right" FontSize="30"/>
